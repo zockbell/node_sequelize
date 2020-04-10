@@ -1,0 +1,28 @@
+{
+  "name": "express_task",
+  "version": "1.0.0",
+  "description": "使用express+sequelize+mysql实现任务管理项目",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "sequelize"
+  ],
+  "author": "zock",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.5",
+    "sequelize-cli": "^5.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "b9dc2b35-e4f6-41cf-bf9f-4ce4ff9161c0",
+		"name": "express",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"詹姆斯反对直接打季后赛：这对那些争夺名次球队不公平\",\n\t\"deadline\": \"2020--3-27\",\n\t\"content\": \"赛季正值停摆阶段，NBA也在研究如何去恢复比赛，考虑到本赛季最早也要到6月中旬才能打开，因此，一些NBA高管也认为，不排除直接进入季后赛。\\n在谈到这一话题时，詹姆斯则是给出了不同的意见。“有一件事就是，你不能直接进入季后赛。因为这会让前60多场比赛的努力付之东流，这些家伙们一直都在为季后赛席位而战。”詹姆斯说道。\\n在赛季停摆前，詹姆斯所在的湖人拿到了49胜14负的战绩，在西部排名第一，领先西部第二的快船5.5个胜场，无论是否恢复常规赛，湖人都不会受到太多干扰，但对于那些争夺季后赛席位以及排名的球队而言，取消常规赛则会对他们造成重大影响。\\n詹姆斯也给出了自己的看法，他建议在季后赛开始之前再打5-10场常规赛。同时，勒布朗还谈到了赛季突然停摆对于自己身体的影响。\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"name\": \"詹姆斯反对直接打季后赛：这对那些争夺名次球队不公平\",\n \"deadline\": \"2020-3-27\",\n \"content\": \"赛季正值停摆阶段，NBA也在研究如何去恢复比赛，考虑到本赛季最早也要到6月中旬才能打开，因此，一些NBA高管也认为，不排除直接进入季后赛\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"name\": \"詹姆斯反对直接打季后赛：这对那些争夺名次球队不公平\",\n \"deadline\": \"2020-3-27\",\n \"content\": \"赛季正值停摆阶段，NBA也在研究如何去恢复比赛，考虑到本赛季最早也要到6月中旬才能打开，因此，一些NBA高管也认为，不排除直接进入季后赛\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/search",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"keyword\": \"詹\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/search",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"search"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

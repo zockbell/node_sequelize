@@ -1,0 +1,14 @@
+.regwrap {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    .ivu-form {
+        left: 50%;
+        top: 50%;
+        width: 400px;
+        position: absolute;
+        transform: translate(-60%, -60%);
+    }
+}

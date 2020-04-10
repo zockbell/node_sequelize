@@ -1,0 +1,76 @@
+.home {
+    padding: 30px 50px;
+    .user {
+      top: 10px;
+      right: 50px;
+      position: absolute;
+      img {
+        top: 10px;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+        position: relative;
+      }
+      span.name {
+        cursor: pointer;
+        color: #2d8cf0;
+        margin-left: 10px;
+        font-weight: bold;
+      }
+      .zock-button.is-round {
+        margin-left: 30px;
+        padding: 6px 10px 8px;
+        font-size: 12px;
+      }
+    }
+    .ivu-card {
+      margin-top: 20px;
+      border-bottom: none;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      .ivu-card-bordered {
+        border-bottom: none;
+      }
+      .ivu-card-body {
+        display: none;
+        padding: 0;
+      }
+      &:hover {
+        box-shadow: none;
+      }
+      .ivu-btn.ivu-btn-primary {
+        top: -5px;
+        position: relative;
+      }
+    }
+    .ivu-icon {
+      top: -2px;
+      font-size: 18px;
+      position: relative;
+    }
+    .ivu-page {
+      margin-top: 20px;
+      text-align: right;
+    }
+    .ivu-form {
+      top: 80px;
+      left: 200px;
+      z-index: 999;
+      position: absolute;
+      .ivu-input {
+        width: 260px;
+      }
+      .so {
+        span {
+          color: #2d8cf0;
+          font-weight: bold;
+        }
+      }
+    }
+    .ivu-table-wrapper {
+      em {
+        color: red;
+        font-style: normal;
+      }
+    }
+  }
