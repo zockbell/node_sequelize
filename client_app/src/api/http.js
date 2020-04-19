@@ -7,7 +7,7 @@ import axios from "axios"
  * @param {*} page 
  */
 export async function getList(status, page) {
-    const res = await axios.get('http://localhost:3000/list/' + status + '/' + page);
+    const res = await axios.get('list/' + status + '/' + page);
     return res.data;
 }
 
@@ -19,7 +19,7 @@ export async function getList(status, page) {
  * @param {status} 状态
  */
 export async function createList(data) {
-    const res = await axios.post("http://localhost:3000/create/", qs.stringify(data));
+    const res = await axios.post("create/", qs.stringify(data));
     return res.data;
 }
 
@@ -31,7 +31,7 @@ export async function createList(data) {
  * @param {id} 任务id
  */
 export async function update(data) {
-    const res = await axios.post("http://localhost:3000/update/", qs.stringify(data));
+    const res = await axios.post("update/", qs.stringify(data));
     return res.data;
 }
 
@@ -41,7 +41,7 @@ export async function update(data) {
  * @param {status} 已修改的任务状态值--1待办，2完成，3删除
  */
 export async function updateStatus(data) {
-    const res = await axios.post("http://localhost:3000/update_status/", qs.stringify(data));
+    const res = await axios.post("update_status/", qs.stringify(data));
     return res.data;
 }
 
@@ -50,7 +50,7 @@ export async function updateStatus(data) {
  * @param {keyword} 关键字
  */
 export async function Search(data, page) {
-    const res = await axios.post("http://localhost:3000/search/" + page, qs.stringify(data));
+    const res = await axios.post("search/" + page, qs.stringify(data));
     return res.data;
 }
 
@@ -59,7 +59,7 @@ export async function Search(data, page) {
  * @param {id} 要删除的记录id
  */
 export async function Delete(data) {
-    const res = await axios.post("http://localhost:3000/delete/", qs.stringify(data));
+    const res = await axios.post("delete/", qs.stringify(data));
     return res.data;
 }
 
@@ -69,7 +69,7 @@ export async function Delete(data) {
  * @param {password} 密码
  */
 export async function Reg(data) {
-    const res = await axios.post("http://localhost:3000/person/register/", qs.stringify(data));
+    const res = await axios.post("person/register/", qs.stringify(data));
     return res.data;
 }
 
@@ -79,6 +79,6 @@ export async function Reg(data) {
  * @param {password} 密码
  */
 export async function Login(data) {
-    const res = await axios.post("http://localhost:3000/person/login/", qs.stringify(data));
+    const res = await axios.post("person/login/", qs.stringify(data));
     return res.data;
 }
