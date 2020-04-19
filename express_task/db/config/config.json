@@ -2,7 +2,7 @@
   "development": {
     "username": "root",
     "?password": "如果没有密码就用null",
-    "password": "zhaoqingbei",
+    "password": "z***q*****i",
     "?database": "所创建的数据库名",
     "database": "express_task",
     "host": "127.0.0.1",
